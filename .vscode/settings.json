@@ -1,0 +1,30 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveServer.settings.port": 1238,
+  "liveSassCompile.settings.autoprefix": null,
+  "cSpell.words": [
+    "ГОЛОВНА",
+    "КОМПЛЕКСНІ",
+    "КОНТАКТИ",
+    "Міолифтинговий",
+    "обличчя",
+    "ПРОГРАМИ",
+    "Рівне",
+    "СТУДІЯ",
+    "ТЕРАПІЯ",
+    "ЦІНИ"
+  ]
+}
