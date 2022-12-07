@@ -1,0 +1,16 @@
+.button__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 1198px) {
+        display: none;
+    }
+}
+.menu__btn {
+    fill: var(--very-soft-pink);
+    border: 0;
+    background-color: transparent;
+}
+.menu__btn--close{
+    display: none;
+}

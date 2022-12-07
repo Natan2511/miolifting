@@ -5,6 +5,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+        @media screen and (max-width:780px) {
+        background-image: url(..//images/hero-bg.jpg);
+        min-width: 320px;
+        min-height: 833px;
+        }
 }
 .hero__content{
     display: flex;
@@ -13,4 +18,10 @@
     color: var(--white);
     font-size: 30px;
     line-height: 1.05;
+        @media screen and (min-width:318px) {
+            line-height: 32px;
+            font-size: 15px;
+            padding-top: 450px;
+            text-align:center;
+        }
 }

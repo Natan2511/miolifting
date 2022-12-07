@@ -41,33 +41,3 @@
     line-height: 1.5;
     color: var(--white);
 }
-.footer__contact__list {
-    display: flex;
-    gap: 20px;
-}
-.footer__contact--list--link {
-    width: 45px;
-    height: 45px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer__contact--list--link-item {
-}
-.footer__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}   
-.footer__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-} 
-.footer__contact--list--link:hover{
-    background-color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}
-.footer__icon:hover{
-    fill: var(--white);
-}
