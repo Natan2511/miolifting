@@ -1,0 +1,9 @@
+.split{
+    width: 100%;
+    min-height: 200px;
+    background-image: url(..//images/split1.jpg);
+    background-repeat: no-repeat;
+    @media screen and (max-width:780px) {
+        margin-top: -1px;
+    }
+}

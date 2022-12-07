@@ -39,3 +39,46 @@
 .footer__icon:hover{
     fill: var(--white);
 }
+//                                               !
+.soc__contact__list {
+    display: flex;
+    gap: 20px;
+    @media screen and (max-width: 1189px) {
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+}
+.soc__contact--list--link {
+    width: 45px;
+    height: 45px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 1189px) {
+        background-color: var(--mostly-black);
+        }
+}
+.soc__contact--list--link-item {
+    @media screen and (max-width: 1189px) {
+        fill: var(--white);
+    }
+}
+.soc__contact>a:hover{
+    color: var(--vivid-blue);
+    transition: var(--transition-animation);
+}   
+.soc__contact>a:hover{
+    color: var(--vivid-blue);
+    transition: var(--transition-animation);
+} 
+.soc__contact--list--link:hover{
+    background-color: var(--vivid-blue);
+    transition: var(--transition-animation);
+}
+.soc__icon:hover{
+    fill: var(--white);
+}

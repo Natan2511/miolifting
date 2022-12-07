@@ -416,6 +416,7 @@ img {
   width: 100%;
   cursor: pointer;
   z-index: 20000;
+  background-color: var(--white);
 }
 @media screen and (min-width: 1189px) {
   .mob__menu {
@@ -497,6 +498,71 @@ img {
   fill: var(--white);
 }
 
+.soc__contact__list {
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 1189px) {
+  .soc__contact__list {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+}
+
+.soc__contact--list--link {
+  width: 45px;
+  height: 45px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1189px) {
+  .soc__contact--list--link {
+    background-color: var(--mostly-black);
+  }
+}
+
+@media screen and (max-width: 1189px) {
+  .soc__contact--list--link-item {
+    fill: var(--white);
+  }
+}
+
+.soc__contact > a:hover {
+  color: var(--vivid-blue);
+  transition: var(--transition-animation);
+}
+
+.soc__contact > a:hover {
+  color: var(--vivid-blue);
+  transition: var(--transition-animation);
+}
+
+.soc__contact--list--link:hover {
+  background-color: var(--vivid-blue);
+  transition: var(--transition-animation);
+}
+
+.soc__icon:hover {
+  fill: var(--white);
+}
+
+.split {
+  width: 100%;
+  min-height: 200px;
+  background-image: url(..//images/split1.jpg);
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 780px) {
+  .split {
+    margin-top: -1px;
+  }
+}
+
 .header__container {
   width: 100%;
   height: 80px;
@@ -556,7 +622,6 @@ img {
 }
 @media screen and (max-width: 780px) {
   .hero {
-    background-image: url(..//images/hero-bg.jpg);
     min-width: 320px;
     min-height: 833px;
   }
@@ -577,13 +642,6 @@ img {
     padding-top: 450px;
     text-align: center;
   }
-}
-
-.split {
-  width: 100%;
-  min-height: 200px;
-  background-image: url(..//images/split1.jpg);
-  background-repeat: no-repeat;
 }
 
 .about {
