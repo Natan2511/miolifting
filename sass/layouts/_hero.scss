@@ -1,0 +1,16 @@
+.hero{
+    min-width: 1680px;
+    min-height: 945px;
+    background-image: url(..//images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__content{
+    display: flex;
+    justify-content: center;
+    padding-top: 472.5px;
+    color: var(--white);
+    font-size: 30px;
+    line-height: 1.05;
+}

@@ -1,0 +1,28 @@
+.studio {
+}
+.studio__container {
+}
+.studio__container>h2{
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    color: var(--mostly-black);
+    font-size: 42px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.15;
+    font-weight: 500;
+}
+.studio__picture {
+}
+.studio__picture--img{
+    padding-top: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.studio__picture--img>img{
+    max-width: 375px;
+    max-height: 281px;
+}

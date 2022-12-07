@@ -5,10 +5,15 @@
 
 //                                  *components
 @import "./components/_modal";
+@import "./components/logo";
 
 //                                  *layouts
-@import "./layouts/footer";
 @import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/about";
+@import "./layouts/information";
+@import "./layouts/studio";
+@import "./layouts/footer";
 
 
 //                                  *utils
