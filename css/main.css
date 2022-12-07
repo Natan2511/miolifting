@@ -506,8 +506,8 @@ img {
   .soc__contact__list {
     display: flex;
     justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 142px;
   }
 }
 
@@ -638,7 +638,7 @@ img {
 @media screen and (min-width: 318px) {
   .hero__content {
     line-height: 32px;
-    font-size: 15px;
+    font-size: 22px;
     padding-top: 450px;
     text-align: center;
   }
@@ -655,6 +655,23 @@ img {
   align-items: center;
 }
 
+.cont__img {
+  max-width: 760px;
+}
+
+.about__img {
+  width: 760px;
+}
+@media screen and (max-width: 1200px) {
+  .about__img {
+    max-width: 620px;
+  }
+}
+
+.img__two {
+  width: 100%;
+}
+
 .about__title {
   margin-top: 75px;
   display: flex;
@@ -663,6 +680,13 @@ img {
   align-items: flex-start;
   gap: 30px;
   padding-bottom: 60px;
+}
+@media screen and (max-width: 780px) {
+  .about__title {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.45;
+  }
 }
 
 .about__title > h2 {
@@ -674,10 +698,27 @@ img {
   font-size: 18px;
   font-weight: 300;
 }
+@media screen and (max-width: 780px) {
+  .about__title > p {
+    font-size: 16px;
+  }
+}
 
 .about__picture {
   display: flex;
   gap: 40px;
+}
+@media screen and (max-width: 780px) {
+  .about__picture {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.about__picture > img {
+  max-width: 360px;
+  max-height: 360px;
 }
 
 .about__price {
