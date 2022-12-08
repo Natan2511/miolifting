@@ -36,14 +36,14 @@
 .footer__icon:hover{
     fill: var(--white);
 }
-//                                               !
+//                           !footer
 .soc__contact__list {
     display: flex;
     gap: 20px;
     @media screen and (max-width: 1189px) {
         display: flex;
         justify-content: center;
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 142px;
     }
 }
