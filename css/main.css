@@ -432,9 +432,10 @@ img {
 }
 
 .mob__nav--list {
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 95px;
   margin: 20px auto;
 }
 
