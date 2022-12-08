@@ -2,12 +2,11 @@
     @media screen and (min-width: 1189px) {
         display: none;
     }
-    height: 100%;
     position: fixed;
-    top: 80px;
-    width: 100%;
-    cursor: pointer;
-    z-index: 20000;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-color: var(--white);
 }
 .mob__nav {
@@ -19,7 +18,7 @@
 .mob__nav--list {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 70px;
     margin: 20px auto;
 }
 .mob__nav--list--item{

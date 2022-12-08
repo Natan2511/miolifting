@@ -411,12 +411,11 @@ img {
 }
 
 .mob__menu {
-  height: 100%;
   position: fixed;
-  top: 80px;
-  width: 100%;
-  cursor: pointer;
-  z-index: 20000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   background-color: var(--white);
 }
 @media screen and (min-width: 1189px) {
@@ -435,7 +434,7 @@ img {
 .mob__nav--list {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 70px;
   margin: 20px auto;
 }
 
@@ -501,7 +500,7 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 142px;
+    justify-content: space-evenly;
   }
 }
 
