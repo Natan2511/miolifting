@@ -16,26 +16,33 @@
     justify-content: center;
     align-items: center;
 }
+.footer__contact--list--link:first-child{
+    background-color: #1877F2 ;
+}
+.footer__contact--list--link:last-child{
+    background-color: white;
+}
+
 .footer__contact--list--link-item {
     @media screen and (max-width: 1189px) {
         fill: var(--white);
     }
 }
-.footer__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}   
-.footer__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-} 
-.footer__contact--list--link:hover{
-    background-color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}
-.footer__icon:hover{
-    fill: var(--white);
-}
+// .footer__contact>a:hover{
+//     color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// }   
+// .footer__contact>a:hover{
+//     color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// } 
+// .footer__contact--list--link:hover{
+//     background-color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// }
+// .footer__icon:hover{
+//     fill: var(--white);
+// }
 //                           !footer
 .soc__contact__list {
     display: flex;
@@ -56,26 +63,31 @@
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 1189px) {
-        background-color: var(--mostly-black);
         }
+}
+.soc__contact--list--link:first-child{
+    background-color: #1877F2 ;
+}
+.soc__contact--list--link:last-child{
+    background-color: white;
 }
 .soc__contact--list--link-item {
     @media screen and (max-width: 1189px) {
         fill: var(--white);
     }
 }
-.soc__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}   
-.soc__contact>a:hover{
-    color: var(--vivid-blue);
-    transition: var(--transition-animation);
-} 
-.soc__contact--list--link:hover{
-    background-color: var(--vivid-blue);
-    transition: var(--transition-animation);
-}
-.soc__icon:hover{
-    fill: var(--white);
-}
+// .soc__contact>a:hover{
+//     color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// }   
+// .soc__contact>a:hover{
+//     color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// } 
+// .soc__contact--list--link:hover{
+//     background-color: var(--vivid-blue);
+//     transition: var(--transition-animation);
+// }
+// .soc__icon:hover{
+//     fill: var(--white);
+// }

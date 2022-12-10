@@ -468,29 +468,18 @@ img {
   align-items: center;
 }
 
+.footer__contact--list--link:first-child {
+  background-color: #1877F2;
+}
+
+.footer__contact--list--link:last-child {
+  background-color: white;
+}
+
 @media screen and (max-width: 1189px) {
   .footer__contact--list--link-item {
     fill: var(--white);
   }
-}
-
-.footer__contact > a:hover {
-  color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.footer__contact > a:hover {
-  color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.footer__contact--list--link:hover {
-  background-color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.footer__icon:hover {
-  fill: var(--white);
 }
 
 .soc__contact__list {
@@ -515,35 +504,18 @@ img {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 1189px) {
-  .soc__contact--list--link {
-    background-color: var(--mostly-black);
-  }
+.soc__contact--list--link:first-child {
+  background-color: #1877F2;
+}
+
+.soc__contact--list--link:last-child {
+  background-color: white;
 }
 
 @media screen and (max-width: 1189px) {
   .soc__contact--list--link-item {
     fill: var(--white);
   }
-}
-
-.soc__contact > a:hover {
-  color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.soc__contact > a:hover {
-  color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.soc__contact--list--link:hover {
-  background-color: var(--vivid-blue);
-  transition: var(--transition-animation);
-}
-
-.soc__icon:hover {
-  fill: var(--white);
 }
 
 .split {
