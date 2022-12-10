@@ -436,7 +436,7 @@ img {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
-  gap: 95px;
+  gap: 80px;
   margin: 20px auto;
 }
 
@@ -848,12 +848,12 @@ img {
 
 .studio__picture--img > img {
   max-width: 470px;
-  min-width: 225px;
+  min-width: 370px;
   min-height: 169px;
+  max-height: 400px;
 }
 
 .footer__cont {
-  max-height: 467px;
   height: 467px;
   background-color: #292929;
   display: flex;
@@ -861,6 +861,7 @@ img {
 @media screen and (max-width: 780px) {
   .footer__cont {
     display: block;
+    height: auto;
   }
 }
 
@@ -872,7 +873,7 @@ img {
 @media screen and (max-width: 780px) {
   .footer__map {
     width: auto;
-    height: auto;
+    height: 300px;
   }
 }
 
@@ -895,6 +896,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
 }
 

@@ -1,10 +1,10 @@
 .footer__cont {
-    max-height: 467px;
     height: 467px;
     background-color: #292929;
     display: flex;
     @media screen and (max-width:780px) {
         display: block;
+        height: auto;
     }
 }
 .footer__map {
@@ -13,7 +13,7 @@
     background-color: #fff;
     @media screen and (max-width:780px) {
         width: auto;
-        height: auto;
+        height: 300px;
     }
 }
 .map{
@@ -32,6 +32,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
 }
 .footer__contact>a{
