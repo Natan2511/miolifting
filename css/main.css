@@ -248,6 +248,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   width: 100%;
+  cursor: url(/images/cursor.png), default;
 }
 
 .link {
