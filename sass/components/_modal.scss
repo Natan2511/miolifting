@@ -40,6 +40,9 @@
     color: #000;
     transition: all var(--transition-animation);
 }
+.form__input::placeholder{
+    opacity: 0.4;
+}
 .form__input:active{
     outline: 0;
 }
@@ -60,6 +63,7 @@
 .modal__span{
     margin-left: -261px;
     margin-top: 10px;
+    opacity: 0.4;
 }
 .button__modal:hover{
     transition: all var(--transition-animation);

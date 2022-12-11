@@ -1,0 +1,44 @@
+.btn-phone{
+    background-color: #6ac4c1;
+    position: fixed;
+    bottom: 7%;
+    left: 2%;
+    border: 0;
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+    @media screen and (max-width:780px) {
+        width: 63.36px;
+        height: 63.36px;
+    }
+}
+.btn-phone>svg{
+    @media screen and (max-width:780px) {
+        width: 36.8px;
+        height: 45.6px;
+    }
+}
+.btn-phone:hover{
+    background-color: #6ab8c4;
+}
+
+
+   [data-tooltip]::after {
+    font: 400 13px/16px Open sans,Ubuntu,Arial;
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 230px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: #6ab8c4; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 2s; /* Время появления подсказки */
+    
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 0.8; /* Показываем подсказку */
+    top: -5em; /* Положение подсказки */
+   }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -335,6 +336,10 @@ img {
   transition: all var(--transition-animation);
 }
 
+.form__input::placeholder {
+  opacity: 0.4;
+}
+
 .form__input:active {
   outline: 0;
 }
@@ -355,6 +360,7 @@ img {
 .modal__span {
   margin-left: -261px;
   margin-top: 10px;
+  opacity: 0.4;
 }
 
 .button__modal:hover {
@@ -540,8 +546,8 @@ img {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  left: 10px; /* Place the button 30px from the right */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  left: 145px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -552,9 +558,63 @@ img {
   border-radius: 50%; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
+@media screen and (max-width: 780px) {
+  #myBtn {
+    left: 80px;
+  }
+}
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.btn-phone {
+  background-color: #6ac4c1;
+  position: fixed;
+  bottom: 7%;
+  left: 2%;
+  border: 0;
+  border-radius: 50%;
+  width: 99px;
+  height: 99px;
+}
+@media screen and (max-width: 780px) {
+  .btn-phone {
+    width: 63.36px;
+    height: 63.36px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .btn-phone > svg {
+    width: 36.8px;
+    height: 45.6px;
+  }
+}
+
+.btn-phone:hover {
+  background-color: #6ab8c4;
+}
+
+[data-tooltip]::after {
+  font: 400 13px/16px Open sans, Ubuntu, Arial;
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 230px; /* Ширина подсказки */
+  left: 0;
+  top: 0; /* Положение подсказки */
+  background: #6ab8c4; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 2s; /* Время появления подсказки */
+}
+
+[data-tooltip]:hover::after {
+  opacity: 0.8; /* Показываем подсказку */
+  top: -5em; /* Положение подсказки */
 }
 
 .header__container {
@@ -913,6 +973,10 @@ img {
     font-size: 20px;
     line-height: 1.4;
   }
+}
+
+.footer__contact > a:nth-child(2) {
+  color: #ff8562;
 }
 
 .footer__contact > p {
