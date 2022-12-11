@@ -61,13 +61,7 @@
             </svg>
         </button>
 
-        <!--                      ! btn phone                             -->
-        <button class="btn-phone" type="button" data-modal-open data-tooltip="Залишіть заявку і ми обов'язково передзвонимо Вам.">
-            
-            <svg width="46" height="57" fill="white">
-                <use href=".//images/symbol-defs.svg#icon-phone"></use>
-            </svg>
-        </button>
+        
 
         <div class="split"></div>
 
@@ -240,17 +234,24 @@
             </div>
         </section>
     </footer>
-
+    
+    <!--                      ! btn phone                             -->
+        <!-- <button class="btn-phone" type="button" data-modal-open data-tooltip="Залишіть заявку і ми обов'язково передзвонимо Вам.">
+            
+            <svg width="46" height="57" fill="white">
+                <use href=".//images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+        </button> -->
     <!-- *                modal                       -->
-    <div class="modal__call--bg is-hidden" data-modal>
+    <!-- <div class="modal__call--bg is-hidden" data-modal>
         <div class=""></div>
 
         <div class="modal__tittle">
             <h2 class="tittle">Бажаєте, передзвонимо <b>Вам?</b></h2>
             <div class="modal__form">
-                <form>
+                <form role="form" action="mailto:mnataniel2001@gmial.com">
                     <input required pattern="[0-9]{10,12}" name="tel" class="form__input" type="tel" placeholder="Ваш номер телефона" value autocomplete="off" onfocus="this.value = this.value;">
-                    <a class="button__modal">Передзвоніть мені</a>
+                    <a type="submit" class="button__modal">Передзвоніть мені</a>
                 </form>
             </div>
             <div>
@@ -262,7 +263,7 @@
                 </svg>
             </a>    
         </div>
-    </div>
+    </div> -->
     
     <!-- *                mob-menu                       -->
     <div class="mob__menu is-hidden" data-menu>
