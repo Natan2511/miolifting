@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Міолифтинговий масаж обличчя в Рівне| Cloud Nine</title>
+  <title>Міолифтинговий масаж обличчя в Рівне| MasterFace</title>
   <link rel="shortcut icon" href="https://static.tildacdn.com/tild3533-3763-4233-a236-356238393336/favicon.ico" type="image/x-icon">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href=".//css/main.min.css">
 </head>
@@ -26,8 +30,9 @@
                 <ul class="nav__list">
                     
                     <li><a class="nav__list--item" href="#main">Головна</a></li>
-                    <li><a class="nav__list--item" href="#price">Ціни</a></li>
                     <li><a class="nav__list--item" href="#massage">Масаж і терапія</a></li>
+                    <li><a class="nav__list--item" href="#price">Ціни</a></li>
+                    <li><a class="nav__list--item" href="#reviews">Відгуки</a></li>
                     <li><a class="nav__list--item" href="#studio">Студія</a></li>
                     <li><a class="nav__list--item" href="#contacts">Контакти</a></li>
                 </ul>
@@ -91,8 +96,8 @@
                 <picture class="about__picture">
                     <img src=".//images/images2.jpg" alt="images2">
                     <img src=".//images/images3.jpg" alt="images3">
-                    <img id="price" src=".//images/images4.jpg" alt="images4">
-                    <img src=".//images/images5.jpg" alt="images3">
+                    <img src=".//images/images4.jpg" alt="images4">
+                    <img id="price" src=".//images/images5.jpg" alt="images3">
                 </picture>
 
                 <div class="about__price">
@@ -178,7 +183,55 @@
                 </ul>
             </div>
 
-            <div class="split"></div>
+            <div class="split" id="reviews"></div>
+        </section>
+
+        <section class="reviews" >
+            <h2>Відгуки наших клієнтів</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="reviews-block swiper-slide">
+                        <p class="reviews-text">Масаж БОЖЕСТВЕННИЙ !!
+                            Щиро дякую. А шкіра реально шовковиста,зморшки та заломи на обличчі помітно зменшились. </p>
+                        <img class="reviews-team" src=".//images/reviews1.jpg" alt="reviews1">
+                        <p class="reviews-city">Алла Колдун</p>
+                        <a href=""></a>
+                    </div>
+                    <div class="reviews-block swiper-slide">
+                        <p class="reviews-text">
+                            Відчуття нереально круті. Результат супер.
+                        <br> </p>
+                        <img class="reviews-team" src=".//images/reviews2.jpg" alt="reviews2">
+                        <p class="reviews-city">Аліна Ляшук</p>
+                        <a href=""></a>
+                    </div>
+                    <div class="reviews-block swiper-slide">
+                        <p class="reviews-text">
+                            Дякую за сьогоднішній релакс -такі відчуття супер , мені дуже сподобалось, вже чекаю наступну процедуру.
+                        </p>
+                        <img class="reviews-team" src=".//images/reviews3.jpg" alt="reviews3">
+                        <p class="reviews-city">Марина Леонова</p>
+                        <a href=""></a>
+                    </div>
+                    <div class="reviews-block swiper-slide">
+                        <p class="reviews-text">
+                            Каріна - це супер. Дякую вам велике, шия одразу після першого сеансу підтягнута, і контур обличчя краще.Ви велика молодчинка!
+                        </p>
+                            <img class="reviews-team" src=".//images/reviews4.jpg" alt="reviews4">
+                        <p class="reviews-city">Ольга Пащенко</p>
+                        <a href=""></a>
+                    </div>
+                    <div class="reviews-block swiper-slide">
+                        <p class="reviews-text">
+                            Мені мега сподобалось.Ти майстр своєї справи і це одразу відчувається.
+                        </p>
+                            <img class="reviews-team" src=".//images/reviews5.jpg" alt="reviews5">
+                        <p class="reviews-city">Міла Білецька</p>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
 
         <section class="studio">
@@ -272,24 +325,27 @@
         <nav class="mob__nav"> 
                 <ul class="mob__nav--list">
                     <li class="mob__nav--list--link">
-                        <a class="mob__nav--list--item" target="_blank" href="#main">Головна</a>
+                        <a class="mob__nav--list--item" href="#main">Головна</a>
                     </li>
 
                     <li class="mob__nav--list--link">
-                        <a class="mob__nav--list--item"  target="_blank" href="#price">Ціни</a>
+                        <a class="mob__nav--list--item" href="#massage">Масаж і терапія</a>
                     </li>
 
                     <li class="mob__nav--list--link">
-                        <a class="mob__nav--list--item" target="_blank" href="#massage">Масаж і терапія</a>
-                    </li>
-
-
-                    <li class="mob__nav--list--link">
-                        <a class="mob__nav--list--item" target="_blank" href="#studio">Студія</a>
+                        <a class="mob__nav--list--item"  href="#price">Ціни</a>
                     </li>
 
                     <li class="mob__nav--list--link">
-                        <a class="mob__nav--list--item" target="_blank" href="#contacts">Контакти</a>
+                        <a class="mob__nav--list--item" href="#reviews">Відгуки</a>
+                    </li>
+
+                    <li class="mob__nav--list--link">
+                        <a class="mob__nav--list--item" href="#studio">Студія</a>
+                    </li>
+
+                    <li class="mob__nav--list--link">
+                        <a class="mob__nav--list--item" href="#contacts">Контакти</a>
                     </li>
                 </ul>
         </nav>
@@ -322,5 +378,14 @@
     <script src=".//js/modal.js"></script>  
     <script src=".//js/menu.js"></script>
     <script src=".//js/scrollTop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+        var swiper = new Swiper('.mySwiper', {});
+      </script>
 </body>
 </html>
