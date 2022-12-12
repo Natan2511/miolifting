@@ -413,7 +413,7 @@ img {
   background-color: transparent;
 }
 
-.menu__btn--close {
+.icon-cross {
   display: none;
 }
 
@@ -427,7 +427,7 @@ img {
   height: 100%;
   z-index: 1;
 }
-@media screen and (min-width: 1189px) {
+@media screen and (min-width: 1197px) {
   .mob__menu {
     display: none;
   }
