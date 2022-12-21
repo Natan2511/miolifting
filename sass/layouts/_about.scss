@@ -53,10 +53,17 @@ font-size: 28px;
         display: flex;
         flex-direction: column;
     }
+    @media screen and (min-width:781px) and (max-width:1198px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .about__picture>img{
     max-width: 360px;
     max-height: 360px;
+    @media screen and (min-width:781px) and (max-width:1198px) {
+        max-width: 320px;
+    }
 }
 .about__price {
     padding-top: 60px;

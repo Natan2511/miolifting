@@ -674,7 +674,6 @@ img {
 }
 
 .hero {
-  min-width: 1680px;
   min-height: 945px;
   background-image: url(..//images/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -776,10 +775,21 @@ img {
     flex-direction: column;
   }
 }
+@media screen and (min-width: 781px) and (max-width: 1198px) {
+  .about__picture {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .about__picture > img {
   max-width: 360px;
   max-height: 360px;
+}
+@media screen and (min-width: 781px) and (max-width: 1198px) {
+  .about__picture > img {
+    max-width: 320px;
+  }
 }
 
 .about__price {
@@ -808,7 +818,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding-left: 550px;
+  align-items: center;
 }
 @media screen and (max-width: 780px) {
   .info__container {
@@ -964,6 +974,12 @@ img {
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+}
+@media screen and (min-width: 781px) {
+  .footer__contact {
+    width: 50%;
+    padding-left: 50px;
   }
 }
 
