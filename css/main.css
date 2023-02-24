@@ -953,6 +953,11 @@ img {
   min-width: 370px;
   min-height: 169px;
 }
+@media screen and (max-width: 765px) {
+  .studio__picture--img > img {
+    height: 615px;
+  }
+}
 
 .footer__cont {
   height: 467px;

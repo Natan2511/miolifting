@@ -27,4 +27,7 @@
     min-width: 370px;
     min-height: 169px;
     // height: 437px;
+    @media screen and (max-width: 765px) {
+        height: 615px;
+    }
 }
